@@ -2,27 +2,10 @@
   <v-container>
     <h1>Образование</h1>
     <AdultOrChild @adult="isAdult = true" @child="isAdult = false" />
-    <v-row>
-      <v-col cols="4">
-        <v-row>
-          <Activities
-            v-if="isAdult"
-            :activities="adultActivities"
-            @selected="anythingSelected = true"
-          />
-          <Activities
-            v-else
-            :activities="childActivities"
-            @selected="anythingSelected = true"
-          />
-        </v-row>
-      </v-col>
-
-      <v-col cols="8">
-        <NuxtChild v-if="anythingSelected" />
-        <p v-else>Выбери что-нибудь слева. </p>
-      </v-col>
-    </v-row>
+    <v-container>
+      <Activities v-if="isAdult" :activities="adultActivities" />
+      <Activities v-else :activities="childActivities" />
+    </v-container>
   </v-container>
 </template>
 
@@ -33,7 +16,6 @@ export default {
   components: { AdultOrChild, Activities },
   data() {
     return {
-      anythingSelected: false,
       isAdult: true,
     }
   },

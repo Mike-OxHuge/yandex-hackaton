@@ -1,14 +1,19 @@
 <template>
-  <v-container>
+  <v-row>
     <v-col
       v-for="action in activities"
       :key="action.i"
       cols="12"
+      sm="8"
+      md="6"
       @click="selection"
     >
-      <NuxtLink :to="action.url">{{ action.title }}</NuxtLink>
+      <v-card>
+        <v-img width="100" src="https://picsum.photos/150/150?random=1"></v-img>
+        <NuxtLink :to="action.url">{{ action.title }}</NuxtLink>
+      </v-card>
     </v-col>
-  </v-container>
+  </v-row>
 </template>
 
 <script>

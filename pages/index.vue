@@ -1,19 +1,19 @@
 <template>
   <v-container>
-    <h1>Добро пожаловать все дела.</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, soluta!
-      Saepe nihil delectus sint. Quisquam ea consequatur voluptatem inventore
-      quae laudantium nesciunt, quas soluta sequi perspiciatis asperiores nam,
-      eligendi ratione distinctio obcaecati tempore quo dicta rem! Fugiat, nisi
-      obcaecati dolor quos reiciendis ut architecto. Repellat minima tenetur
-      iure quod dolor.
-    </p>
+    <HeroCenter />
+    <Carousel title="Рекомендации для вас" />
+    <Carousel title="Категории" />
+    <Carousel />
+    <Carousel title="Топ - 10" />
   </v-container>
 </template>
 
 <script>
-export default {}
+import HeroCenter from '~/components/Homepage/HeroCenter.vue'
+import Carousel from '~/components/Carousel.vue'
+export default {
+  components: { HeroCenter, Carousel },
+}
 </script>
 
 <style></style>

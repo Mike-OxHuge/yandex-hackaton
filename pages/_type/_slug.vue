@@ -1,5 +1,7 @@
 <template>
-  <SlugContent />
+  <v-main>
+    <SlugContent />
+  </v-main>
 </template>
 
 <script>
@@ -10,6 +12,11 @@ export default {
   },
   props: {
     //
+  },
+  mounted() {
+    console.log('slug is mounted')
+    console.log('type is: ', this.$route.params.type)
+    console.log('slug is: ', this.$route.params.slug)
   },
   methods: {
     //

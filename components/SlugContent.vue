@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <p>Здесь будет {{ $route.params.slug }}</p>
+    <p v-if="$route.params.slug">Здесь будет {{ $route.params.slug }}</p>
   </v-container>
 </template>
 

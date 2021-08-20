@@ -1,19 +1,39 @@
 <template>
-  <v-app dark>
-    <v-container class="text-center">
-      <NuxtLink to="/"> <h1>Yandex.dosug</h1> </NuxtLink>
+  <v-app>
+    <div class="text-center mt-1">
+      <!-- <NuxtLink to="/"> <h1>Yandex.dosug</h1> </NuxtLink>
       <v-row>
         <v-col v-for="link in links" :key="link.i" sm="6" md="3">
           <NuxtLink :to="link.url">{{ link.title }}</NuxtLink>
         </v-col>
+      </v-row> -->
+      <v-row justify="space-between" align="center">
+        <v-col cols="3">
+          <NuxtLink to="/">
+            <h1 style="color: black" class="text-uppercase">Яндекс Досуг</h1>
+          </NuxtLink>
+        </v-col>
+        <v-col cols="5">
+          <Menu />
+        </v-col>
+        <v-col cols="1">
+          <v-avatar>
+            <v-img src="https://picsum.photos/200/200?random=1"></v-img>
+          </v-avatar>
+        </v-col>
       </v-row>
-    </v-container>
+    </div>
     <Nuxt />
+    <Footer />
   </v-app>
 </template>
 
 <script>
+import Menu from '~/components/Menu.vue'
+import Footer from '~/components/Footer.vue'
+
 export default {
+  components: { Menu, Footer },
   data() {
     return {
       links: [
@@ -39,16 +59,4 @@ export default {
 }
 </script>
 
-<style>
-a {
-  text-decoration: none;
-}
-/* home route and active route will show in bold as it matches / and /about */
-a.nuxt-link-active {
-  color: #00c58e !important;
-}
-/* exact link will show the primary color for only the exact matching link */
-a.nuxt-link-exact-active {
-  color: #00c58e !important;
-}
-</style>
+<style></style>
