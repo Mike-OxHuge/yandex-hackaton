@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mr-2 mb-1 item-card" flat nuxt :to="url" color="transparent">
+  <v-card class="mr-2 mb-1 item-card" flat nuxt :to="url">
     <v-img
       :id="id"
       :src="image"

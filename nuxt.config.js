@@ -81,7 +81,6 @@ export default {
           highlight: '#FF0000',
           header: '#292929',
           subheader: '#7A7A7A',
-          transparent: '#ffff0000',
         },
       },
     },
