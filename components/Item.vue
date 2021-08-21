@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mr-2 mb-1 item-card" flat nuxt :to="url">
+  <v-card class="mr-2 mb-1 item-card" flat nuxt :to="url" color="transparent">
     <v-img
       :id="id"
       :src="image"
@@ -81,6 +81,6 @@ export default {
 }
 
 .item-card {
-  background: rgba(255, 255, 0, 0);
+  background: #ffff0000 !important;
 }
 </style>

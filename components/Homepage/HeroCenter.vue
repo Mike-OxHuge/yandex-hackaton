@@ -16,7 +16,7 @@
     </div>
     <div>
       <v-btn color="button">
-        <NuxtLink to="/categories/foo"
+        <NuxtLink to="/categories"
           ><span class="black--text">Выбрать занятие</span></NuxtLink
         >
       </v-btn>
