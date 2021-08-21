@@ -1,12 +1,6 @@
 <template>
   <v-app>
     <div class="text-center mt-1">
-      <!-- <NuxtLink to="/"> <h1>Yandex.dosug</h1> </NuxtLink>
-      <v-row>
-        <v-col v-for="link in links" :key="link.i" sm="6" md="3">
-          <NuxtLink :to="link.url">{{ link.title }}</NuxtLink>
-        </v-col>
-      </v-row> -->
       <v-row justify="space-between" align="center">
         <v-col cols="3">
           <NuxtLink to="/">

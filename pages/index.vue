@@ -1,11 +1,11 @@
 <template>
-  <v-container>
+  <v-main>
     <HeroCenter />
     <Carousel title="Рекомендации для вас" />
     <Carousel title="Категории" />
     <Carousel />
     <Carousel title="Топ - 10" />
-  </v-container>
+  </v-main>
 </template>
 
 <script>

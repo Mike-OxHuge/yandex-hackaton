@@ -11,3 +11,9 @@ p {
 a {
   text-decoration: none;
 }
+
+.cats {
+  background: rgba(211, 211, 211, 0.5);
+  margin: 5rem 0;
+  padding: 0 2rem;
+}

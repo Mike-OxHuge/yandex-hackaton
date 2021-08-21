@@ -1,34 +1,23 @@
 <template>
   <v-sheet class="mt-5">
-    <div class="my-2">
+    <v-container class="my-2">
       <span class="font-weight-bold">{{ title }}</span>
-    </div>
+    </v-container>
     <v-slide-group show-arrows>
       <v-slide-item v-for="n in 25" :key="n">
-        <v-card class="mr-2 mb-1" flat>
-          <v-img
-            src="/1black.png"
-            width="200"
-            style="border-radius: 2rem"
-          ></v-img>
-          <v-card-subtitle
-            class="white--text ml-1"
-            style="position: absolute; top: 20%; z-index: 9"
-            >Название категории</v-card-subtitle
-          >
-          <v-card-text class="pl-0">Описание категории</v-card-text>
-        </v-card>
+        <Item :id="n" url="/categories/foo" />
       </v-slide-item>
     </v-slide-group>
   </v-sheet>
 </template>
 
 <script>
+import Item from '~/components/Item.vue'
 export default {
+  components: { Item },
   props: {
     title: {
       type: String,
-      //   required: true,
       default: '',
     },
   },
