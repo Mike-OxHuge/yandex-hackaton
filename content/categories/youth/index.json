@@ -1,0 +1,19 @@
+{
+  "title": "Молодое поколение",
+  "types": [
+    {
+      "title": "Прошаренный студент",
+      "link": "/smart-fella",
+      "image": "/1black.png",
+      "description": "Выжить любой ценой",
+      "id": "1"
+    },
+    {
+      "title": "Как найти время, если его нет?",
+      "link": "/time-management",
+      "image": "/1black.png",
+      "description": "Успей всё и сразу",
+      "id": "2"
+    }
+  ]
+}

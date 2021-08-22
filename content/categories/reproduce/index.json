@@ -1,0 +1,19 @@
+{
+  "title": "Прокачай эрудицию",
+  "types": [
+    {
+      "title": "История исскуств",
+      "link": "/history-of-art",
+      "image": "/1black.png",
+      "description": "Артисты всех мастей",
+      "id": "1"
+    },
+    {
+      "title": "Интересное рядом",
+      "link": "/interesting-stuff",
+      "image": "/1black.png",
+      "description": "Прочие интересности",
+      "id": "2"
+    }
+  ]
+}

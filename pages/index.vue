@@ -3,8 +3,7 @@
     <HeroCenter />
     <Carousel title="Рекомендации для вас" />
     <Carousel title="Категории" />
-    <Carousel />
-    <Carousel title="Топ - 10" />
+    <!-- <Carousel title="Топ - 10" /> -->
   </v-main>
 </template>
 

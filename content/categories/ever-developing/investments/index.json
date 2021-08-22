@@ -1,0 +1,19 @@
+{
+  "title": "Инвестиции в будущее",
+  "lessons": [
+    {
+      "title": "Куда вложить деньги?",
+      "link": "/where-to-invest",
+      "image": "/1black.png",
+      "description": "Большие дивиденды!",
+      "id": "1"
+    },
+    {
+      "title": "Откуда взять деньги?",
+      "link": "/where-is-my-money-lebowsky",
+      "image": "/1black.png",
+      "description": "Начать можно даже с 10000 рублей",
+      "id": "2"
+    }
+  ]
+}

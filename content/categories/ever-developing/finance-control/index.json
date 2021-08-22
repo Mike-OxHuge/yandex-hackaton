@@ -1,0 +1,19 @@
+{
+  "title": "Управление личными финансами",
+  "lessons": [
+    {
+      "title": "Финансы в жизни человека",
+      "link": "/money-in-life",
+      "image": "/1black.png",
+      "description": "Финансовая грамотность ",
+      "id": "1"
+    },
+    {
+      "title": "Доходность и риски инвестиций",
+      "link": "/risks-and-profits",
+      "image": "/1black.png",
+      "description": "Финансовая грамотность ",
+      "id": "2"
+    }
+  ]
+}

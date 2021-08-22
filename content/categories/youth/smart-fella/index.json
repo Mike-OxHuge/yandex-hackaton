@@ -1,0 +1,33 @@
+{
+  "title": "Прошаренный студент",
+  "lessons": [
+    {
+      "title": "Скидки по студенческому",
+      "link": "/discounts",
+      "image": "/1black.png",
+      "description": "Дешево и сердито",
+      "id": "1"
+    },
+    {
+      "title": "Бесплатное просвещение",
+      "link": "/free-education",
+      "image": "/1black.png",
+      "description": "Бесплатно. Этим всё сказано",
+      "id": "2"
+    },
+    {
+      "title": "Форумы для экоактивистов",
+      "link": "/ecoforums",
+      "image": "/1black.png",
+      "description": "Эко",
+      "id": "3"
+    },
+    {
+      "title": "Хакатоны",
+      "link": "/hackatons",
+      "image": "/1black.png",
+      "description": "Ближашайшие хакатоны",
+      "id": "4"
+    }
+  ]
+}

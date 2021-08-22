@@ -1,0 +1,19 @@
+{
+  "title": "Время есть всегда!",
+  "lessons": [
+    {
+      "title": "Техники тайм-менеджмента",
+      "link": "/tm-techs",
+      "image": "/1black.png",
+      "description": "Успеть всё!",
+      "id": "1"
+    },
+    {
+      "title": "Приложения для эффективного тайм-менеджмента",
+      "link": "/apps-for-tm",
+      "image": "/1black.png",
+      "description": "Успеть везде!",
+      "id": "2"
+    }
+  ]
+}

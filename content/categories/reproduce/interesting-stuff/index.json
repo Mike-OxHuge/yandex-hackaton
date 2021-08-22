@@ -1,0 +1,12 @@
+{
+  "title": "Интересное рядом",
+  "lessons": [
+    {
+      "title": "Интересности",
+      "link": "/interesnosti",
+      "image": "/1black.png",
+      "description": "Разные интересные штуки",
+      "id": "1"
+    }
+  ]
+}

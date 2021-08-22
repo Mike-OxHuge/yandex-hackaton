@@ -1,0 +1,19 @@
+{
+  "title": "История исскуств",
+  "lessons": [
+    {
+      "title": "Скульптуры",
+      "link": "/sculptures",
+      "image": "/1black.png",
+      "description": "Коротко о скульптурах",
+      "id": "1"
+    },
+    {
+      "title": "Великие художники",
+      "link": "/great-painters",
+      "image": "/1black.png",
+      "description": "Лучшие в своем деле",
+      "id": "2"
+    }
+  ]
+}

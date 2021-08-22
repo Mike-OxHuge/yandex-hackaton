@@ -1,0 +1,19 @@
+{
+  "title": "Вечно развивающимся",
+  "types": [
+    {
+      "title": "Управление личными финансами",
+      "link": "/finance-control",
+      "image": "/1black.png",
+      "description": "Финансовая грамотность ",
+      "id": "1"
+    },
+    {
+      "title": "Инвестиции в будущее",
+      "link": "/investments",
+      "image": "/1black.png",
+      "description": "Финансовая грамотность ",
+      "id": "2"
+    }
+  ]
+}

@@ -11,6 +11,7 @@
         width="100%"
         height="400px"
       ></iframe>
+      <a :href="types.link" target="_blank">Открыть в новой вкладке</a>
     </div>
   </v-main>
 </template>
