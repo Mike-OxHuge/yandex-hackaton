@@ -1,8 +1,8 @@
 <template>
-  <v-card class="mr-2 mb-1 item-card" flat nuxt :to="url">
+  <v-card class="mr-2 mb-1 item-card" flat nuxt :to="link">
     <v-img
-      :id="id"
-      :src="image"
+      :id="item.id"
+      :src="item.image"
       :width="width"
       style="border-radius: 2rem"
       class="item-tile"
@@ -12,7 +12,7 @@
       style="position: absolute; top: 20%"
       @mouseover="addClass"
       @mouseout="removeClass"
-      >{{ title }}</v-card-subtitle
+      >{{ item.title }}</v-card-subtitle
     >
     <v-card-text class="pl-0">{{ description }}</v-card-text>
   </v-card>
@@ -21,30 +21,17 @@
 <script>
 export default {
   props: {
-    id: {
-      type: Number,
+    item: {
+      type: Object,
       required: true,
     },
     width: {
       type: String,
       default: '200',
     },
-    title: {
-      type: String,
-      default: 'Название категории',
-    },
     description: {
       type: String,
       default: 'Описание категории',
-    },
-    image: {
-      type: String,
-      default: '/1black.png',
-    },
-    url: {
-      type: String,
-      default: '#',
-      // required: true,
     },
   },
   data() {
@@ -53,17 +40,19 @@ export default {
     }
   },
   computed: {
-    //
+    link() {
+      return this.$route.path + this.item.link
+    },
   },
   mounted() {
     //
   },
   methods: {
     addClass() {
-      document.getElementById(this.id).classList.add('highlighted')
+      document.getElementById(this.item.id).classList.add('highlighted')
     },
     removeClass() {
-      document.getElementById(this.id).classList.remove('highlighted')
+      document.getElementById(this.item.id).classList.remove('highlighted')
     },
   },
 }

@@ -1,0 +1,12 @@
+{
+  "title": "Лепка",
+  "lessons": [
+    {
+      "title": "Лепим динозавра",
+      "link": "/dunnosaurus",
+      "image": "/1black.png",
+      "description": "Лепим dunnosaurus'a",
+      "id": "1"
+    }
+  ]
+}

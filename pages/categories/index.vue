@@ -3,8 +3,8 @@
     <div class="cats">
       <h1>Категории</h1>
       <v-row>
-        <v-col v-for="n in 6" :key="n" cols="4">
-          <Item :id="n" width="auto" description="" url="/categories/foo" />
+        <v-col v-for="cat in cats" :key="cat.id" cols="4">
+          <Item :item="cat" width="auto" description="" />
         </v-col>
       </v-row>
     </div>
@@ -15,6 +15,19 @@
 import Item from '~/components/Item.vue'
 export default {
   components: { Item },
+  async asyncData({ $content }) {
+    const categories = await $content('categories').fetch()
+    const cats = categories[0].categories
+    return {
+      cats,
+    }
+  },
+  computed: {
+    //
+  },
+  mounted() {
+    //
+  },
 }
 </script>
 

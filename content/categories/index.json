@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "title": "Дети до 15 лет",
+      "link": "/kids-below-15",
+      "image": "/1black.png",
+      "id": "1"
+    },
+
+    {
+      "title": "Молодое поколение",
+      "link": "/youth",
+      "image": "/1black.png",
+      "id": "2"
+    },
+
+    {
+      "title": "Вечно развивающимся",
+      "link": "/ever-developing",
+      "image": "/1black.png",
+      "id": "3"
+    },
+
+    {
+      "title": "Прокачай эрудицию",
+      "link": "/reproduce",
+      "image": "/1black.png",
+      "id": "4"
+    }
+  ]
+}

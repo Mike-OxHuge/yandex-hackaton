@@ -1,0 +1,19 @@
+{
+  "title": "Дети до 15",
+  "types": [
+    {
+      "title": "Лепка",
+      "link": "/lepka",
+      "image": "/1black.png",
+      "description": "Лепим всякуб дрянь из всякой дряни",
+      "id": "1"
+    },
+    {
+      "title": "Развиваем внимательность",
+      "link": "/developing-attention",
+      "image": "/1black.png",
+      "description": "Будем ну очень внимательными",
+      "id": "2"
+    }
+  ]
+}

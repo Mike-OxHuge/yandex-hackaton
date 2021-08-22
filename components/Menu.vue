@@ -2,7 +2,7 @@
   <div>
     <v-row v-if="!areSearching" no-gutters justify="center" class="text-center">
       <v-col>
-        <span>Мой досуг</span>
+        <NuxtLink to="/favs"><span>Мой досуг</span></NuxtLink>
       </v-col>
       <v-col>
         <NuxtLink to="/categories"><span>Категории</span></NuxtLink>

@@ -1,25 +1,36 @@
 <template>
   <v-main>
     <div class="cats">
-      <h1>{{ $route.params }}</h1>
-      <Item
-        :id="randomId"
-        width="400"
-        title="Урок 1"
-        description="Для урока тебе понадобится пенопласт."
-      />
+      <h3>
+        {{ types.description }}
+      </h3>
+      <iframe
+        :title="types.description"
+        allowfullscreen="true"
+        :src="types.link"
+        width="100%"
+        height="400px"
+      ></iframe>
     </div>
   </v-main>
 </template>
 
 <script>
-import Item from '~/components/Item.vue'
 export default {
-  components: { Item },
+  async asyncData({ $content, route }) {
+    const categories = await $content(route.path).fetch()
+    const types = await categories[0]
+    return {
+      types,
+    }
+  },
   computed: {
     randomId() {
       return Math.floor(Math.random() * 100)
     },
+  },
+  mounted() {
+    //
   },
 }
 </script>
