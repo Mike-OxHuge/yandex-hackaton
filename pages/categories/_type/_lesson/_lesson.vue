@@ -1,9 +1,14 @@
 <template>
   <v-main>
     <div class="cats">
-      <h3>
-        {{ types.description }}
-      </h3>
+      <div class="d-flex">
+        <v-icon class="mx-2" large color="button" @click="$router.go(-1)"
+          >mdi-arrow-left
+        </v-icon>
+        <h3>
+          {{ types.description }}
+        </h3>
+      </div>
       <iframe
         :title="types.description"
         allowfullscreen="true"
