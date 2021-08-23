@@ -4,7 +4,7 @@
       <h1>Категории</h1>
       <v-row>
         <v-col v-for="cat in cats" :key="cat.id" cols="4">
-          <Item :item="cat" width="auto" height="450" description="" />
+          <Item :item="cat" width="auto" height="400" description="" />
         </v-col>
       </v-row>
     </div>
@@ -15,8 +15,8 @@
 import Item from '~/components/Item.vue'
 export default {
   components: { Item },
-  async asyncData({ $content }) {
-    const categories = await $content('categories').fetch()
+  async asyncData({ $content, route }) {
+    const categories = await $content(route.path.replace('//', '/')).fetch()
     const cats = categories[0].categories
     return {
       cats,
