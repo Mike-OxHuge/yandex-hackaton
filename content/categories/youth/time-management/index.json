@@ -4,14 +4,14 @@
     {
       "title": "Техники тайм-менеджмента",
       "link": "/tm-techs",
-      "image": "/1black.png",
+      "image": "/categories/youth/types/tm-tech.jpg",
       "description": "Успеть всё!",
       "id": "1"
     },
     {
       "title": "Приложения для эффективного тайм-менеджмента",
       "link": "/apps-for-tm",
-      "image": "/1black.png",
+      "image": "/categories/youth/types/apps-tm.png",
       "description": "Успеть везде!",
       "id": "2"
     }

@@ -4,14 +4,14 @@
     {
       "title": "Лепка",
       "link": "/lepka",
-      "image": "/1black.png",
+      "image": "/categories/kids/lepka.png",
       "description": "Лепим всякуб дрянь из всякой дряни",
       "id": "1"
     },
     {
       "title": "Развиваем внимательность",
       "link": "/developing-attention",
-      "image": "/1black.png",
+      "image": "/categories/kids/dev-att.png",
       "description": "Будем ну очень внимательными",
       "id": "2"
     }

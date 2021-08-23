@@ -4,14 +4,14 @@
     {
       "title": "Скульптуры",
       "link": "/sculptures",
-      "image": "/1black.png",
+      "image": "/categories/reproduce/types/sculp.jpg",
       "description": "Коротко о скульптурах",
       "id": "1"
     },
     {
       "title": "Великие художники",
       "link": "/great-painters",
-      "image": "/1black.png",
+      "image": "/categories/reproduce/types/painters.jpg",
       "description": "Лучшие в своем деле",
       "id": "2"
     }

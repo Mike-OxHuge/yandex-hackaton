@@ -3,28 +3,28 @@
     {
       "title": "Дети до 15 лет",
       "link": "/kids-below-15",
-      "image": "/1black.png",
+      "image": "/categories/kids.png",
       "id": "1"
     },
 
     {
       "title": "Молодое поколение",
       "link": "/youth",
-      "image": "/1black.png",
+      "image": "/categories/youth.png",
       "id": "2"
     },
 
     {
       "title": "Вечно развивающимся",
       "link": "/ever-developing",
-      "image": "/1black.png",
+      "image": "/categories/ever-developing.png",
       "id": "3"
     },
 
     {
       "title": "Прокачай эрудицию",
       "link": "/reproduce",
-      "image": "/1black.png",
+      "image": "/categories/reproduce.png",
       "id": "4"
     }
   ]

@@ -4,6 +4,7 @@
       :id="item.id"
       :src="item.image"
       :width="width"
+      :height="height"
       style="border-radius: 2rem"
       class="item-tile"
     ></v-img>
@@ -29,6 +30,10 @@ export default {
       type: String,
       default: '200',
     },
+    height: {
+      type: String,
+      default: '200',
+    },
     description: {
       type: String,
       default: 'Описание категории',
@@ -41,7 +46,7 @@ export default {
   },
   computed: {
     link() {
-      return this.$route.path + this.item.link
+      return (this.$route.path + this.item.link).replace('//', '/')
     },
   },
   mounted() {

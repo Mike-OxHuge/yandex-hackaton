@@ -4,14 +4,14 @@
     {
       "title": "История исскуств",
       "link": "/history-of-art",
-      "image": "/1black.png",
+      "image": "/categories/reproduce/history.jpg",
       "description": "Артисты всех мастей",
       "id": "1"
     },
     {
       "title": "Интересное рядом",
       "link": "/interesting-stuff",
-      "image": "/1black.png",
+      "image": "/categories/reproduce/interesting.jpeg",
       "description": "Прочие интересности",
       "id": "2"
     }

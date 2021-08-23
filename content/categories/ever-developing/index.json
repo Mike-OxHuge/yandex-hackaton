@@ -4,14 +4,14 @@
     {
       "title": "Управление личными финансами",
       "link": "/finance-control",
-      "image": "/1black.png",
+      "image": "/categories/ever-developing/finance-control.jpg",
       "description": "Финансовая грамотность ",
       "id": "1"
     },
     {
       "title": "Инвестиции в будущее",
       "link": "/investments",
-      "image": "/1black.png",
+      "image": "/categories/ever-developing/invest.jpeg",
       "description": "Финансовая грамотность ",
       "id": "2"
     }

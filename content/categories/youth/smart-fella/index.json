@@ -4,28 +4,28 @@
     {
       "title": "Скидки по студенческому",
       "link": "/discounts",
-      "image": "/1black.png",
+      "image": "/categories/youth/types/discounts.jpg",
       "description": "Дешево и сердито",
       "id": "1"
     },
     {
       "title": "Бесплатное просвещение",
       "link": "/free-education",
-      "image": "/1black.png",
+      "image": "/categories/youth/types/edu.jpg",
       "description": "Бесплатно. Этим всё сказано",
       "id": "2"
     },
     {
       "title": "Форумы для экоактивистов",
       "link": "/ecoforums",
-      "image": "/1black.png",
+      "image": "/categories/youth/types/eco.png",
       "description": "Эко",
       "id": "3"
     },
     {
       "title": "Хакатоны",
       "link": "/hackatons",
-      "image": "/1black.png",
+      "image": "/categories/youth/types/hacka.png",
       "description": "Ближашайшие хакатоны",
       "id": "4"
     }

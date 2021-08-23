@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <div class="text-center mt-1">
+    <div class="text-center mt-1 menu">
       <v-row justify="space-between" align="center">
         <v-col cols="3">
           <NuxtLink to="/">
@@ -53,4 +53,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.menu {
+  background: rgba(0, 0, 0, 0);
+}
+</style>
