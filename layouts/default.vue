@@ -11,7 +11,7 @@
           <Menu />
         </v-col>
         <v-col cols="1">
-          <v-avatar>
+          <v-avatar class="my-2">
             <v-img src="https://picsum.photos/200/200?random=1"></v-img>
           </v-avatar>
         </v-col>
