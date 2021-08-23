@@ -8,14 +8,10 @@
       style="border-radius: 2rem"
       class="item-tile"
     ></v-img>
-    <v-card-subtitle
-      class="white--text ml-1"
-      style="position: absolute; top: 20%"
-      @mouseover="addClass"
-      @mouseout="removeClass"
-      >{{ item.title }}</v-card-subtitle
-    >
-    <v-card-text class="pl-0">{{ description }}</v-card-text>
+    <h4 class="text-center" @mouseover="addClass" @mouseout="removeClass">
+      {{ item.title }}
+    </h4>
+    <v-card-text class="text-center">{{ description }}</v-card-text>
   </v-card>
 </template>
 
@@ -36,7 +32,7 @@ export default {
     },
     description: {
       type: String,
-      default: 'Описание категории',
+      default: '',
     },
   },
   data() {

@@ -27,6 +27,7 @@
           hint="Жми Enter"
           dense
           hide-details
+          color="button"
           @keydown.enter="handleSearch"
         >
         </v-text-field>

@@ -2,7 +2,7 @@
   <v-main>
     <div class="cats">
       <div class="d-flex">
-        <v-icon class="mx-2" large color="button" @click="$router.go(-1)"
+        <v-icon class="mx-2" large color="header" @click="$router.go(-1)"
           >mdi-arrow-left
         </v-icon>
         <h1>{{ types.title }}</h1>
