@@ -21,9 +21,7 @@ import Item from '~/components/Item.vue'
 export default {
   components: { Item },
   async asyncData({ $content, route }) {
-    const categories = await $content(
-      'categories/' + route.params.category
-    ).fetch()
+    const categories = await $content(route.path).fetch()
     const types = await categories[0]
     return {
       types,
