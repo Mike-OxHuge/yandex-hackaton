@@ -16,7 +16,7 @@ import Item from '~/components/Item.vue'
 export default {
   components: { Item },
   async asyncData({ $content, route }) {
-    const categories = await $content(route.path.replace('//', '/')).fetch()
+    const categories = await $content(route.path.substring(1)).fetch()
     const cats = categories[0].categories
     return {
       cats,
@@ -26,6 +26,9 @@ export default {
     //
   },
   mounted() {
+    //
+  },
+  methods: {
     //
   },
 }
