@@ -7,12 +7,17 @@
     </v-row>
     <v-divider class="mx-15" />
     <v-row justify="center" class="mt-5" no-gutters>
-      <v-col v-for="n in 5" :key="n" cols="1" class="d-flex">
-        <v-avatar class="mx-auto">
-          <v-img src="https://via.placeholder.com/100"></v-img>
-        </v-avatar>
+      <v-col v-for="n in 5" :key="n" cols="1" class="d-flex justify-center">
+        <div style="border-radius: 50%; border: 2px solid black">
+          <v-avatar class="mx-auto" color="button">
+            <!-- <v-img src="https://via.placeholder.com/100"></v-img> -->
+          </v-avatar>
+        </div>
       </v-col>
     </v-row>
+    <p class="text-center mt-5">
+      2021 © Team Forward for ООО «Яндекс.Медиасервисы» Hackaton
+    </p>
   </v-container>
 </template>
 
@@ -20,4 +25,4 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped></style>

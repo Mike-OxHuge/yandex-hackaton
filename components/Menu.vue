@@ -8,9 +8,9 @@
         <NuxtLink to="/categories"><span>Категории</span></NuxtLink>
       </v-col>
       <v-col>
-        <span>Комната отдыха</span>
+        <NuxtLink to="/chillout-room"><span>Комната отдыха</span></NuxtLink>
       </v-col>
-      <v-col>
+      <v-col cols="2">
         <v-icon v-if="!areSearching" color="black" @click="areSearching = true"
           >mdi-magnify</v-icon
         >
@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     handleSearch() {
-      console.log(this.searchQuery)
+      alert(`Ты искал: ${this.searchQuery}, но не нашел ;)`)
     },
   },
 }

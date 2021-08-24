@@ -37,16 +37,19 @@ export default {
   },
   data() {
     return {
-      //
+      combinedLink: (this.$route.path + this.item.link).replace('//', '/'),
     }
   },
   computed: {
     link() {
-      return (this.$route.path + this.item.link).replace('//', '/')
+      return this.combinedLink.substr(0, 4) === '/fav'
+        ? this.combinedLink.slice(6, -1)
+        : this.combinedLink
     },
   },
   mounted() {
-    //
+    // console.log(this.combinedLink.substr(0, 4) === '/fav')
+    // console.log(this.combinedLink.slice(6, -1))
   },
   methods: {
     addClass() {

@@ -8,10 +8,10 @@
     </h1>
     <NuxtLink to="/"> Home page </NuxtLink>
     <p>
-      If you see this error then it's because for some reason the app doesn't
-      work properly on the hosting. But it does work just fine on a localhost.
-      Weird stuff. I definetely need to research more about Nuxt-content.
+      If you see this error then it's because most likely I haven't had enough
+      time to deal with it.
     </p>
+    <p>Or we are facing some static site generation limitations.</p>
   </v-app>
 </template>
 

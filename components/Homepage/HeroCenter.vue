@@ -33,11 +33,6 @@ export default {}
   height: 90vh;
   background-image: url('/bg.jpeg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-}
-#hero-center::before {
-  content: '';
-  margin-top: -90px;
 }
 </style>
