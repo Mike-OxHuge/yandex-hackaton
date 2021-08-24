@@ -16,10 +16,7 @@ import Item from '~/components/Item.vue'
 export default {
   components: { Item },
   async asyncData({ $content, route }) {
-    const categories = await $content(
-      // eslint-disable-next-line eqeqeq
-      route.path.substring(0, 2) == '//' ? route.path.substring(1) : route.path
-    ).fetch()
+    const categories = await $content(route.path.substring(1)).fetch()
     const cats = categories[0].categories
     return {
       cats,
@@ -29,9 +26,9 @@ export default {
     //
   },
   beforeMount() {
-    console.log(this.$route.path)
-    console.log(this.$route.path.substring(1))
-    console.log(this.$route.path.substring(0, 2))
+    // console.log(this.$route.path)
+    // console.log(this.$route.path.substring(1))
+    // console.log(this.$route.path.substring(0, 2))
   },
   methods: {
     //
