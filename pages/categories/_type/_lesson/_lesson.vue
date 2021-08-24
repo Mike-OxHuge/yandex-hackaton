@@ -24,7 +24,9 @@
 <script>
 export default {
   async asyncData({ $content, route }) {
-    const categories = await $content(route.path.substring(1)).fetch()
+    const categories = await $content(
+      route.path.substring(0, 2) === '//' ? route.path.substring(1) : route.path
+    ).fetch()
     const types = await categories[0]
     return {
       types,
