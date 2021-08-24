@@ -17,7 +17,8 @@ export default {
   components: { Item },
   async asyncData({ $content, route }) {
     const categories = await $content(
-      route.path.substring(0, 2) === '//' ? route.path.substring(1) : route.path
+      // eslint-disable-next-line eqeqeq
+      route.path.substring(0, 2) == '//' ? route.path.substring(1) : route.path
     ).fetch()
     const cats = categories[0].categories
     return {
@@ -27,8 +28,10 @@ export default {
   computed: {
     //
   },
-  mounted() {
-    //
+  beforeMount() {
+    console.log(this.$route.path)
+    console.log(this.$route.path.substring(1))
+    console.log(this.$route.path.substring(0, 2))
   },
   methods: {
     //
