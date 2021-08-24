@@ -12,6 +12,7 @@
       time to deal with it.
     </p>
     <p>Or we are facing some static site generation limitations.</p>
+    <p>Or my way of delivering content was a really bad choice.</p>
   </v-app>
 </template>
 

@@ -3,8 +3,8 @@
     <div class="cats">
       <h1>Категории</h1>
       <v-row>
-        <v-col v-for="cat in cats" :key="cat.id" cols="4">
-          <Item :item="cat" width="auto" height="400" description="" />
+        <v-col v-for="cat in cats" :key="cat.id" cols="3">
+          <Item :item="cat" width="auto" height="250" description="" />
         </v-col>
       </v-row>
     </div>
