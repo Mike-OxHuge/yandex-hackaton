@@ -8,7 +8,7 @@
     align-center
   >
     <h1>Досуг</h1>
-    <div style="width: 30%" class="text-center my-5">
+    <div style="width: 30%" class="text-center my-2">
       <p>
         Это место, где вы можете проводить время с близкими, независимо в какой
         части планеты каждый из вас находится
