@@ -3,7 +3,7 @@
     <HeroCenter />
     <Carousel title="Рекомендации для вас" :items="itemsTwo" width="200" />
     <v-container>
-      <Carousel title="Категории" :items="cats" width="200" />
+      <Carousel title="Категории" :items="itemsOne" width="200" />
     </v-container>
     <!-- <Carousel title="Топ - 10" /> -->
   </v-main>
@@ -23,6 +23,7 @@ export default {
   },
   data() {
     return {
+      itemsOne: [],
       itemsTwo: [
         {
           title: 'Техники тайм-менеджмента',
@@ -77,10 +78,17 @@ export default {
     }
   },
   mounted() {
-    //
+    this.repopulate()
   },
   methods: {
-    //
+    repopulate() {
+      if (this.cats) {
+        this.itemsOne = this.cats
+        for (let i = 0; i < this.itemsOne.length; i++) {
+          this.itemsOne[i].link = `/categories${this.itemsOne[i].link}`
+        }
+      }
+    },
   },
 }
 </script>
