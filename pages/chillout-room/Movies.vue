@@ -11,7 +11,7 @@ export default {}
 <style scoped>
 #hero {
   height: 90vh;
-  background-image: url('/chillout-bg.png');
+  background-image: url('/chillout-bg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
