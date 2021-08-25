@@ -21,7 +21,11 @@ import Item from '~/components/Item.vue'
 export default {
   components: { Item },
   async asyncData({ $content, route }) {
-    const categories = await $content(route.path.substring(1)).fetch()
+    const categories = await $content(
+      route.path.substr(-1) === '/'
+        ? route.path.slice(1, -1)
+        : route.path.substring(1)
+    ).fetch()
     const types = await categories[0]
     return {
       types,

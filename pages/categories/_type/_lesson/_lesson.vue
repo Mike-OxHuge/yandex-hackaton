@@ -1,6 +1,6 @@
 <template>
   <v-main>
-    <div class="cats">
+    <div class="cats text-center">
       <div class="d-flex">
         <v-icon class="mx-2" large color="header" @click="$router.go(-1)"
           >mdi-arrow-left
@@ -14,9 +14,13 @@
         allowfullscreen="true"
         :src="types.link"
         width="100%"
-        height="400px"
+        height="600px"
       ></iframe>
-      <a :href="types.link" target="_blank">Открыть в новой вкладке</a>
+      <v-btn color="button"
+        ><a :href="types.link" target="_blank"
+          >Открыть в новой вкладке</a
+        ></v-btn
+      >
     </div>
   </v-main>
 </template>
@@ -24,7 +28,11 @@
 <script>
 export default {
   async asyncData({ $content, route }) {
-    const categories = await $content(route.path.substring(1)).fetch()
+    const categories = await $content(
+      route.path.substr(-1) === '/'
+        ? route.path.slice(1, -1)
+        : route.path.substring(1)
+    ).fetch()
     const types = await categories[0]
     return {
       types,

@@ -43,7 +43,7 @@ export default {
   computed: {
     link() {
       return this.combinedLink.substr(0, 4) === '/fav'
-        ? this.combinedLink.slice(6, -1)
+        ? this.combinedLink.slice(5, -1)
         : this.combinedLink
     },
   },
