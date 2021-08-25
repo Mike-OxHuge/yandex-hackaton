@@ -1,31 +1,54 @@
 {
   "categories": [
     {
-      "title": "Дети до 15 лет",
+      "title": "Детям (6-15 лет)",
       "link": "/kids-below-15",
       "image": "/categories/kids.png",
       "id": "1"
     },
 
     {
-      "title": "Молодое поколение",
+      "title": "Студентам",
       "link": "/youth",
       "image": "/categories/youth.png",
       "id": "2"
     },
 
     {
-      "title": "Вечно развивающимся",
+      "title": "Образование",
       "link": "/ever-developing",
       "image": "/categories/ever-developing.png",
       "id": "3"
     },
 
     {
-      "title": "Прокачай эрудицию",
+      "title": "Детям",
       "link": "/reproduce",
       "image": "/categories/reproduce.png",
       "id": "4"
+    },
+
+    {
+      "title": "Спорт",
+      "link": "/fithnes",
+      "image": "/masha/fithnes.jpg",
+      "id": "5"
+    },
+
+    {
+      "title": "Творчество",
+      "link": "/art",
+      "image": "/masha/art.jpg",
+      "id": "6"
+    },
+
+    {
+      "title": "Комната",
+      "link": "/rooms",
+      "image": "/masha/rooms.jpg",
+      "id": "7"
     }
+
+  
   ]
 }

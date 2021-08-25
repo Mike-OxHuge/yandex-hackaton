@@ -1,5 +1,5 @@
 {
-  "title": "Молодое поколение",
+  "title": "Студентам",
   "types": [
     {
       "title": "Прошаренный студент",
@@ -11,7 +11,7 @@
     {
       "title": "Как найти время, если его нет?",
       "link": "/time-management",
-      "image": "/categories/youth/tm.png",
+      "image": "/categories/youth/tm.jpg",
       "description": "Успей всё и сразу",
       "id": "2"
     }

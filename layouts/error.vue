@@ -3,16 +3,8 @@
     <h1 v-if="error.statusCode === 404">
       {{ pageNotFound }}
     </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <NuxtLink to="/"> Home page </NuxtLink>
-    <p>
-      If you see this error then it's because most likely I haven't had enough
-      time to deal with it.
-    </p>
-    <p>Or we are facing some static site generation limitations.</p>
-    <p>Or my way of delivering content was a really bad choice.</p>
+    <h1 v-else>Скоро будет что-то интересное...</h1>
+    <NuxtLink to="/"> Домашняя Страница </NuxtLink>
   </v-app>
 </template>
 

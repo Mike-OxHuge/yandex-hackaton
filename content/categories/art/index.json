@@ -1,0 +1,12 @@
+{
+    "title": "Творчество",
+    "types": [
+      {
+        "title": "Бисероплетение",
+        "link": "/beadwork",
+        "image": "/masha/beadwork.jpg",
+        "description": "Создавай сам",
+        "id": "1"
+      }
+    ]
+  }

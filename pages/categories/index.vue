@@ -37,7 +37,7 @@ export default {
     // console.log(this.$route.path)
     // console.log(this.$route.path.substring(1))
     // console.log(this.$route.path.substring(0, 2))
-    console.log(this.link)
+    // console.log(this.link)
   },
   methods: {
     // {
