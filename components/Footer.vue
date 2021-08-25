@@ -1,7 +1,16 @@
 <template>
   <v-container>
     <v-row justify="center" dense align="baseline" class="text-center">
-      <v-col cols="2"><p>Условия подписки</p></v-col>
+      <v-col cols="2"
+        ><p>
+          <a
+            href="https://yandex.ru/legal/yandex_plus_conditions/"
+            target="_blank"
+            class="header--text"
+            >Условия подписки</a
+          >
+        </p></v-col
+      >
       <v-col cols="2"><h2>Trade</h2></v-col>
       <v-col cols="2"><p>Задать вопрос</p></v-col>
     </v-row>
